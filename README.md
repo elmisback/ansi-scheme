@@ -20,3 +20,12 @@ positional arguments:
     fg                  sets the foreground
     cs                  sets the cursor color
 ```
+
+## Preinstalled themes
+Right now, just my favorite themes.
+```
+$ ansi-theme ls
+Package themes:
+atelier-heath
+atelier-savanna
+```
