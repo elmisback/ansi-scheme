@@ -29,3 +29,23 @@ Package themes:
 atelier-heath
 atelier-savanna
 ```
+
+I had this idea while tweaking the vim themefile provided by the base16 project.
+
+# Design documentation
+
+Colorscheme pain points:
+* Different formats for schemes in the wild
+* Switching schemes on the fly
+* Coordinating theme-switching between terminal-based applications
+
+Goals:
+* On-the-fly terminal colorschemes without pain
+* Simple scheme format
+* Grab themes from Github
+* Decent standard theme library (probably base16)
+* Unambiguous set of sub-commands
+* Single palette for all applications
+
+Non-goals:
+* Distinguishing between applications (applications can handle this)
