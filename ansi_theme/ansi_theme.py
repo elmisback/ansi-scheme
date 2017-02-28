@@ -5,7 +5,7 @@ from __future__ import print_function
 import os
 import argparse
 import os
-import pickle
+import json
 import sys
 import pkg_resources
 import re
@@ -128,7 +128,7 @@ def _get_user_data():
         return None
     else:
         with open(USER_FILE, 'r') as f:
-            return pickle.load(f)
+            return json.loads(f.read())
 
 def _save_user_pref(name, value):
     user = _get_user_data()
@@ -136,7 +136,7 @@ def _save_user_pref(name, value):
         user = {}
     user[name] = value
     with open(USER_FILE, 'w') as f:
-        pickle.dump(user, f)
+        f.write(json.dumps(user))
 
 def _get_user_pref(name):
     user = _get_user_data()
