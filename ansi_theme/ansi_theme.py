@@ -9,6 +9,7 @@ import json
 import sys
 import pkg_resources
 import re
+import click
 
 # TODO Save user's bg/fg/cs preferences.
 # TODO Support iTerm2.
@@ -31,6 +32,7 @@ def _mkdir_p(path):
             pass
         else:
             raise
+
 
 def _cleanup(line):
     """Puts a hex value in 12/34/56 format, strips anything after that."""
@@ -258,7 +260,7 @@ def _set_target(target, value):
     _save_user_pref(target, value)
 
 def print_vimfile():
-    raise NotImplemented
+    raise NotImplementedError
 
 def print_colors(theme):
     if not theme:

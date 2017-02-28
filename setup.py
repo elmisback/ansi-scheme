@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'ansi-theme = ansi_theme:cli'
+            'ansi-theme = ansi_theme.ansi_theme:cli'
         ]
       },
     package_data={
