@@ -1,23 +1,5 @@
 #!/usr/bin/env python
-"""ansi-theme: terminal themes via ANSI escape codes
-
-# Usage
-
-    # Set the terminal's color palette.
-    ansi-theme set base16-atelier-heath
-
-    # List available themes.
-    # Themes from the base16 project are preinstalled.
-    ansi-theme ls
-
-    # Use a light background
-    ansi-theme set --brightness 1
-
-    # Add a new theme
-    ansi-theme add path/to/theme.ansitheme
-
-    # Write a vim colorscheme file that works with all themes
-    ansi-theme vimfile > ansi-theme.vim
+"""ansi-theme: terminal colorschemes via ANSI escape codes
 """
 from __future__ import print_function
 import os
