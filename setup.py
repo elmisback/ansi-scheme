@@ -3,16 +3,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ansi-theme',
+    name='ansi-scheme',
     description='set terminal colors on the fly',
     author='elmisback',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'ansi-theme = ansi_theme.ansi_theme:cli'
+            'ansi-scheme = ansi_scheme.cli:cli'
         ]
       },
     package_data={
-        'ansi_theme': ['default-themes/*.colors']
+        'ansi_scheme': ['default-schemes/*.colors']
     }
 )

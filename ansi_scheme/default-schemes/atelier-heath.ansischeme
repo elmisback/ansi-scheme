@@ -1,0 +1,26 @@
+{
+"colors": {
+  "Black":                            "1b/18/1b",
+  "Red":                            "ca/40/2b",
+  "Green":                            "91/8b/3b",
+  "Yellow":                            "bb/8a/35",
+  "Blue":                            "51/6a/ec",
+  "Magenta":                            "7b/59/c0",
+  "Cyan":                            "15/93/93",
+  "White":                            "ab/9b/ab",
+  "BrightBlack":                            "77/69/77",
+  "BrightRed":                            "ca/40/2b",
+  "BrightGreen":                            "91/8b/3b",
+  "BrightYellow":                            "bb/8a/35",
+  "BrightBlue":                            "51/6a/ec",
+  "BrightMagenta":                            "7b/59/c0",
+  "BrightCyan":                            "15/93/93",
+  "BrightWhite":                            "f7/f3/f7",
+  "16":                            "a6/59/26",
+  "17":                            "cc/33/cc",
+  "18":                            "29/23/29",
+  "19":                            "69/5d/69",
+  "20":                            "9e/8f/9e",
+  "21":                            "d8/ca/d8"
+  }
+}
